@@ -24,3 +24,9 @@
 4. Lets say you have found this then the user information comes to your API based on this token and if token is expired then it wont work.
 5. Forget password token - theory before 1.18
 6. Ones the everything is verified that user exists password is correct then we actually create a token this token is json web token, it is encrypted and we send this token into users cookies not in the user local storage because then the user can manipulate the token there but we can send the secure cookie to the user and then later on whenever we wish we can access those cookies as well. So it helps as a bridger to verify whenever the user we want to verify it just has the id of the user but it can have a lot of payload into that, you can send a user ID, email, admin type etc can send all this data as a payload.
+
+
+
+
+
+Framework vs Library - In framework rules are tight you have to use framework with the defined rule but in library it is free flow no strict rules are follow.
